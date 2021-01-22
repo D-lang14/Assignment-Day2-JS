@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learning JavaScript</title>
+  </head>
+  <body>
+    <h1>Learning JavaScript</h1>
+
+    <script>
+
+      
+              // Question 1
+
+      // Here 1 is number and both the "2" 's are string 
+      // so, output is 122
+      console.log(1 + "2" + "2");
+
+      // Here 1 is number, +"2" is also acting as a number and "2" acting as string
+      // so, output is 32
+      console.log(1 + +"2" + "2");
+
+      // Here 1 is number, -"1" is acting as number and "2" is string
+      // so, output is 02
+      console.log(1 + -"1" + "2");
+
+      // Here +"1" act as number but it looks like 0 + 1 = 1 and "1", "2" is string
+      // so, output is 112
+      console.log(+"1" + "1" + "2");
+
+      // Here "A", "B", "2" are string
+      // so, output is NaN2
+      console.log("A" - "B" + "2");
+
+      // Here "A", "B" are acting as string and 2 is a number
+      // so, output is NaN
+      console.log("A" - "B" + 2);
+
+
+
+               // Question 2
+
+    var marks = 70;
+
+    if(marks > 90) {
+      console.log("AA");
+    }
+    else if(marks > 80 && marks <= 90) {
+      console.log("AB");
+    }
+    else if(marks > 70 && marks <= 80) {
+      console.log("BB");
+    }
+    else if(marks > 60 && marks <= 70) {
+      console.log("BC");
+    }
+    else if(marks > 50 && marks <= 60) {
+      console.log("CC");
+    }
+    else if(marks > 40 && marks <= 50) {
+      console.log("CD");
+    }
+    else if(marks > 30 && marks <= 40) {
+      console.log("DD");
+    }
+    else {
+      console.log("FF");
+    }
+
+
+    </script>
+  </body>
+</html>
