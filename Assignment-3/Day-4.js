@@ -24,8 +24,7 @@ var library = [
     //     Already read 'Steve Jobs' by Walter Isaacson.
     
     console.log("You still need to read " + "'" + library[2].title + "'" + " by " + library[2].author + ".");
-    //     You still need to read 'Mockingjay: The Final Book of The Hunger Games' by Suzanne
-    //     Collins.
+    //     You still need to read 'Mockingjay: The Final Book of The Hunger Games' by Suzanne Collins.
 
 
 // Question-2
